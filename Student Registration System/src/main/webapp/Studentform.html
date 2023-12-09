@@ -3,6 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <title>Student Registration Form</title>
+<style>
+ input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100px;
+            
+        }
+        </style>
 </head>
 <body>
 	<h1> Student Registration Form</h1>
@@ -28,12 +41,12 @@
     
     <label for="phone">Phone:</label> 
     <input type=""phone" id=""phone" name="phone" required> <br> <br>
-    <label for="course">Course:</label>
+    <label for="course">Department:</label>
     <select id="course" name="course" required>
-        <option value="math">Math</option>
-        <option value="science">Science</option>
-        <option value="history">History</option>
-        <option value="english">English</option>
+        <option value="math">Mathematics</option>
+        <option value="science">Computer Science</option>
+        <option value="Engineer">Engineering</option>
+        <option value="Economics">Economics</option>
     </select><br><br>
 
     <input type="submit" value="Add">

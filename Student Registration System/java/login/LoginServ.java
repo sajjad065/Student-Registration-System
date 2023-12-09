@@ -14,6 +14,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse; 
 
+//admin login handling
 @WebServlet("/LoginServ")
 public class LoginServ extends javax.servlet.http.HttpServlet {
 	
@@ -45,12 +46,9 @@ public class LoginServ extends javax.servlet.http.HttpServlet {
 		
 		
 			rs = pst.executeQuery();
-		
-		
-		
-	   
 			
-		
+			System.out.println(rs);
+
 			if(rs.next())
 			{
 			  
